@@ -31,8 +31,12 @@
   margin: auto;
   position: absolute;
   object-fit: cover;
+  transition: 0.3s;
   padding-left: var(--dl-space-space-fourunits);
   text-decoration: none;
+}
+.history-image:hover {
+  opacity: 0.7;
 }
 .history-container2 {
   right: var(--dl-space-space-fourunits);
@@ -56,11 +60,16 @@
   position: absolute;
   align-self: center;
   text-align: center;
+  transition: 0.3s;
   border-color: var(--dl-color-logocolors-yellow);
   border-width: 2px;
   padding-left: auto;
   border-radius: var(--dl-radius-radius-radius8);
   background-color: var(--dl-color-gray-white);
+}
+.history-navlink1:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-logocolors-yellow);
 }
 .history-navlink2 {
   top: 0px;
@@ -72,11 +81,16 @@
   position: absolute;
   align-self: center;
   text-align: center;
+  transition: 0.3s;
   border-color: var(--dl-color-logocolors-yellow);
   border-width: 2px;
   padding-left: auto;
   border-radius: var(--dl-radius-radius-radius8);
   background-color: var(--dl-color-gray-white);
+}
+.history-navlink2:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-logocolors-yellow);
 }
 .history-navlink3 {
   top: 0px;
@@ -89,6 +103,7 @@
   font-size: 16px;
   align-self: center;
   text-align: center;
+  transition: 0.3s;
   font-family: Industry Light;
   font-weight: 700;
   border-color: var(--dl-color-logocolors-yellow);
@@ -98,6 +113,10 @@
   text-transform: none;
   text-decoration: none;
   background-color: var(--dl-color-gray-white);
+}
+.history-navlink3:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-logocolors-yellow);
 }
 .history-navlink4 {
   top: 0px;
@@ -109,9 +128,62 @@
   position: absolute;
   align-self: center;
   text-align: center;
+  transition: 0.3s;
   border-color: var(--dl-color-logocolors-yellow);
   border-width: 2px;
   padding-left: auto;
   border-radius: var(--dl-radius-radius-radius8);
   background-color: var(--dl-color-logocolors-yellow);
+}
+.history-navlink4:hover {
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.history-container3 {
+  flex: 1;
+  width: 80%;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-r75);
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.history-text {
+  color: var(--dl-color-logocolors-origred);
+  font-size: 32px;
+  align-self: center;
+  margin-top: var(--dl-space-space-fourunits);
+  text-align: center;
+  font-family: Industry Inc Base;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.history-image1 {
+  top: 81px;
+  left: 102px;
+  width: 100px;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.history-image2 {
+  top: 81px;
+  right: 102px;
+  width: 100px;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.history-ul {
+  flex: 1;
+  width: 80%;
+  height: auto;
+  align-self: center;
+  margin-top: var(--dl-space-space-threeunits);
 }

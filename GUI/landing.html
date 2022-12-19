@@ -71,19 +71,25 @@
             type="text"
             id="login"
             name="username"
+            required=""
             placeholder="username"
+            autocomplete="username"
             class="landing-textinput input"
           />
           <input
-            type="text"
+            type="password"
             id="login"
             name="password"
+            required=""
+            maxlength="20"
+            minlength="6"
             placeholder="******************"
+            autocomplete="current-password"
             class="landing-textinput1 input"
           />
           <a
             href="index.html"
-            id="Navigation"
+            id="submitLogin"
             name="Home button"
             class="landing-navlink"
           >
@@ -92,7 +98,7 @@
           <a
             href="new-user.html"
             id="Navigation"
-            name="Home button"
+            name="newUser"
             class="landing-navlink1"
           >
             Click Here
@@ -104,5 +110,6 @@
       data-section-id="navbar"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
