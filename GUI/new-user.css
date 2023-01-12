@@ -128,6 +128,7 @@
   font-size: 16px;
   align-self: center;
   text-align: center;
+  transition: 0.3s;
   font-family: Industry Light;
   font-weight: 700;
   padding-top: .5rem;
@@ -139,4 +140,8 @@
   text-transform: none;
   text-decoration: none;
   background-color: var(--dl-color-logocolors-yellow);
+}
+.new-user-navlink:hover {
+  color: var(--dl-color-logocolors-yellow);
+  background-color: var(--dl-color-gray-white);
 }
