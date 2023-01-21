@@ -11,12 +11,12 @@ const History = (props) => {
           <meta property="og:title" content="History - BAJA Security" />
         </Head>
         <header className="history-container1">
-          <Link href="/">
+          <Link href="/home">
             <a className="history-link">
               <img
                 id="logo"
                 alt="image"
-                src="/playground_assets/asset%202%403x-200h.png"
+                src="/playground_assets/homePageHeader.png"
                 className="history-image"
               />
             </a>
@@ -60,7 +60,7 @@ const History = (props) => {
           </span>
           <img
             alt="image"
-            src="/playground_assets/asset%202%403x-200h.png"
+            src="/playground_assets/homePageHeader.png"
             className="history-image3"
           />
         </footer>

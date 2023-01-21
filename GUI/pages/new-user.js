@@ -13,7 +13,7 @@ const NewUser = (props) => {
         <div className="new-user-container1">
           <img
             alt="image"
-            src="/playground_assets/asset%202%403x-700h.png"
+            src="/playground_assets/homePageHeader.png"
             className="new-user-image"
           />
           <span className="new-user-text">Create Username</span>

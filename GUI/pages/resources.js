@@ -11,12 +11,12 @@ const Resources = (props) => {
           <meta property="og:title" content="Resources - BAJA Security" />
         </Head>
         <header className="resources-container1">
-          <Link href="/">
+          <Link href="/home">
             <a className="resources-link">
               <img
                 id="logo"
                 alt="image"
-                src="/playground_assets/asset%202%403x-200h.png"
+                src="/playground_assets/homePageHeader.png"
                 className="resources-image"
               />
             </a>
@@ -64,7 +64,7 @@ const Resources = (props) => {
           </span>
           <img
             alt="image"
-            src="/playground_assets/asset%202%403x-200h.png"
+            src="/playground_assets/homePageHeader.png"
             className="resources-image1"
           />
         </footer>

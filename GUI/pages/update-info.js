@@ -11,11 +11,11 @@ const UpdateInfo = (props) => {
           <meta property="og:title" content="Update-Info - BAJA Security" />
         </Head>
         <header className="update-info-container01">
-          <Link href="/">
+          <Link href="/home">
             <a className="update-info-link">
               <img
                 alt="image"
-                src="/playground_assets/asset%202%403x-200h.png"
+                src="/playground_assets/homePageHeader.png"
                 className="update-info-image"
               />
             </a>
@@ -211,7 +211,7 @@ const UpdateInfo = (props) => {
           </span>
           <img
             alt="image"
-            src="/playground_assets/asset%202%403x-200h.png"
+            src="/playground_assets/homePageHeader.png"
             className="update-info-image7"
           />
         </footer>

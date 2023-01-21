@@ -11,12 +11,12 @@ const Pdf3 = (props) => {
           <meta property="og:title" content="Pdf-3 - BAJA Security" />
         </Head>
         <header className="pdf3-container1">
-          <Link href="/">
+          <Link href="/home">
             <a className="pdf3-link">
               <img
                 id="logo"
                 alt="image"
-                src="/playground_assets/asset%202%403x-200h.png"
+                src="/playground_assets/homePageHeader.png"
                 className="pdf3-image"
               />
             </a>
@@ -63,7 +63,7 @@ const Pdf3 = (props) => {
           <span className="pdf3-text">Website created by BAJA Security</span>
           <img
             alt="image"
-            src="/playground_assets/asset%202%403x-200h.png"
+            src="/playground_assets/homePageHeader.png"
             className="pdf3-image1"
           />
         </footer>
