@@ -139,18 +139,18 @@
   box-shadow: 5px 5px 10px 0px #d4d4d4;
 }
 .history-container3 {
+  flex: 1;
   width: 80%;
-  height: 856px;
+  height: auto;
   display: flex;
   position: relative;
   margin-top: var(--dl-space-space-sixunits);
   align-items: flex-start;
   border-radius: var(--dl-radius-radius-r75);
-  margin-bottom: var(--dl-space-space-twounits);
   flex-direction: column;
   background-color: var(--dl-color-gray-white);
-  border-bottom-left-radius: var(--dl-radius-radius-radius8);
-  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 .history-text {
   color: var(--dl-color-logocolors-origred);
@@ -186,51 +186,4 @@
   height: auto;
   align-self: center;
   margin-top: var(--dl-space-space-threeunits);
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-twounits);
-  list-style-type: disc;
-  list-style-image: none;
-  list-style-position: inside;
-}
-.history-footer {
-  width: 100%;
-  height: 97px;
-  display: flex;
-  max-width: 100%;
-  min-width: 100%;
-  align-items: center;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: space-between;
-  background-color: var(--dl-color-gray-white);
-}
-.history-image3 {
-  width: var(--dl-size-size-large);
-  object-fit: cover;
-}
-@media(max-width: 767px) {
-  .history-footer {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .history-text2 {
-    text-align: center;
-    margin-left: var(--dl-space-space-unit);
-    margin-right: var(--dl-space-space-unit);
-  }
-}
-@media(max-width: 479px) {
-  .history-footer {
-    padding: var(--dl-space-space-unit);
-    flex-direction: column;
-  }
-  .history-text2 {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: var(--dl-space-space-unit);
-  }
 }
