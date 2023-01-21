@@ -49,7 +49,7 @@ const NewUser = (props) => {
             autoComplete="new-password"
             className="new-user-textinput2 input"
           />
-          <Link href="/landing" id="Navigation" name="newUsersubmit">
+          <Link href="/" id="Navigation" name="newUsersubmit">
             <a className="new-user-link">Submit</a>
           </Link>
         </div>
