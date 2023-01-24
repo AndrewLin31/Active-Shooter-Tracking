@@ -7,7 +7,7 @@ COPY ./public/playground_assets ./
 COPY ./ ./
 RUN npm install
 
-RUN npm run build
+RUN npm run dev
 
 CMD ["npm", "start"]
 EXPOSE 5000
