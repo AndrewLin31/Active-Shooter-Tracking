@@ -13,7 +13,7 @@ const Landing = (props) => {
         <div className="landing-container1">
           <img
             alt="image"
-            src="/playground_assets/landingHeader.png"
+            src="/playground_assets/asset%202%403x-700h.png"
             className="landing-image"
           />
           <span className="landing-text">Username</span>

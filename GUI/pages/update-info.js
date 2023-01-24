@@ -15,13 +15,13 @@ const UpdateInfo = (props) => {
             <a className="update-info-link">
               <img
                 alt="image"
-                src="/playground_assets/homePageHeader.png"
+                src="/playground_assets/asset%202%403x-200h.png"
                 className="update-info-image"
               />
             </a>
           </Link>
           <div className="update-info-container02">
-            <Link href="/" id="Navigation" name="Home button">
+            <Link href="/home" id="Navigation" name="Home button">
               <a className="update-info-link1 button heading2">Home</a>
             </Link>
             <Link href="/resources" id="Navigation" name="Home button">
@@ -211,7 +211,7 @@ const UpdateInfo = (props) => {
           </span>
           <img
             alt="image"
-            src="/playground_assets/homePageHeader.png"
+            src="/playground_assets/asset%202%403x-200h.png"
             className="update-info-image7"
           />
         </footer>

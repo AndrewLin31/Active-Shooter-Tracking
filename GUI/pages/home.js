@@ -16,13 +16,13 @@ const Home = (props) => {
               <img
                 id="logo"
                 alt="image"
-                src="/playground_assets/homePageHeader.png"
+                src="/playground_assets/asset%202%403x-200h.png"
                 className="home-image"
               />
             </a>
           </Link>
           <div className="home-container02">
-            <Link href="/" id="homeNav" name="Home button">
+            <Link href="/home" id="homeNav" name="Home button">
               <a className="home-link1">Home</a>
             </Link>
             <Link href="/resources" id="resourceNav" name="Resources button">
@@ -102,7 +102,7 @@ const Home = (props) => {
           <span className="home-text6">Website created by BAJA Security</span>
           <img
             alt="image"
-            src="/playground_assets/homePageHeader.png"
+            src="/playground_assets/asset%202%403x-200h.png"
             className="home-image3"
           />
         </footer>
